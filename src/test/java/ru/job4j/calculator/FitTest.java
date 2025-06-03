@@ -10,7 +10,7 @@ class FitTest {
         short input = 180;
         double expected = 92;
         double output = Fit.manWeight(input);
-        assertThat(output).isEqualTo(expected,withPrecision(0.01));
+        assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 
     @Test
