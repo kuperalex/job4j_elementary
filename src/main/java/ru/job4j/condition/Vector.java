@@ -8,7 +8,6 @@ public class Vector {
         return String.format("(%d, %d)", xResult, yResult);
     }
 
-
     public static void main(String[] args) {
         String result = addVectors(1, 2, 3, 4);
         System.out.println("result (1, 2) + (3, 4) = " + result);
