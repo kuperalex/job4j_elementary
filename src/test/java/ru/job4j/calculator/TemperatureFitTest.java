@@ -19,6 +19,6 @@ class TemperatureFitTest {
         int input = 10;
         double expected = 5.0;
         double output = TemperatureFit.idealTemperatureForMeat(input);
-        assertThat(output).isEqualTo(expected,withPrecision(0.01));
+        assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 }
