@@ -5,7 +5,6 @@ public class Savings {
         int years = 0;
         double total = 0;
         double rate = percent / 100.0;
-
         do {
             total += total * rate;     // Начисление процентов
             total += annualDeposit;      // Пополнение вклада
